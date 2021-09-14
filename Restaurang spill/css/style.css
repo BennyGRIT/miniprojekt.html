@@ -1,0 +1,77 @@
+body{
+    margin-top: 0;
+    background-color: lightblue;
+    height:100vh;
+}
+h1{
+    font-size: 50px;
+  color: white;
+  text-shadow: 1px 7px 2px black, 10px 1px 25px blue, 7px 0 5px darkblue;
+}
+
+h2{
+    text-shadow: 1px 2px 2px white, 10px 1px 25px red, 7px 0 5px green;
+
+}
+
+.flexcontainer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid 2px black;
+    justify-content: center;
+    display: flex;
+    background-color: blue;
+  }
+/* här skriver du koden till alla dina flex items i din meny  */
+  nav a{
+    border: solid 3px black;
+    background-color: lightgrey;
+    width: 300px;
+    margin: 2px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 20%;
+  }
+
+.shadows{
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 2px 2px black, 10px 1px 25px blue, 7px 0 5px darkblue;
+}
+
+.menymeny{
+    margin-top: -13rem;
+}
+
+.infoinfo{
+    margin-top: 20;
+}
+
+
+  ul {
+    list-style: none;
+  }
+
+  ul li::before {
+    content: "\2222";
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+.containertest{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.boxtest{
+    margin-right: 2rem;
+    /* flex-wrap: wrap; */
+
+}
+
